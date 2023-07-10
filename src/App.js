@@ -13,11 +13,9 @@ function App() {
     tg.ready()
   },[])
 
-
-
   return (
     <div className="App">
-      <Header />
+        <Header />
         <Routes>
             <Route index element={<ProductList />}/>
             <Route path={'/form'} element={<Form />}/>
